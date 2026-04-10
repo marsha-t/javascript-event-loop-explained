@@ -74,25 +74,37 @@ Read it [here](docs/01-mental-model.md).
 
 If nothing can interrupt JavaScript, when does anything else run? This article reframes tasks as entry points into execution, not chunks of work.
 
+_Coming soon_
+
 **3) Microtasks: Why Promises Run First**
 
 Why do Promises always run before `setTimeout`? This article reveals microtasks as mandatory continuations that must run before JavaScript moves on.
+
+_Coming soon_
 
 **4) `async` / `await`: Pausing Functions Without Pausing the World**
 
 Does `await` pause your program or just your function? This article shows how `await` actually works.
 
+_Coming soon_
+
 **5) Rendering Is a Browser Decision, Not a JavaScript One**
 
 You updated the DOM. So why didn’t the screen change? This article explains why rendering is not triggered by JavaScript, but gated by it.
+
+_Coming soon_
 
 **6) `requestAnimationFrame`: The Missing Scheduling Layer**
 
 If rendering only happens at certain moments, how do you run code at the right time? This article introduces `requestAnimationFrame` as the missing scheduling layer.
 
+_Coming soon_
+
 **7) What the Event Loop Means for Real UI Code**
 
 Why do UIs freeze, skip updates, or feel laggy? This article connects the event loop to real-world UI behavior and shows how to work with the browser, not against it.
+
+_Coming soon_
 
 ## The mental model
 
@@ -110,5 +122,5 @@ This is the model everything in this series builds toward:
 If you want to discuss edge cases, counterexamples, or how this interacts with real applications, I’m always happy to chat.
 
 The full series is hosted on my [website](https://www.marshateo.com/writing/javascript-event-loop-landing). 
-This series is also cross-posted on [Medium]() and [Dev.to]().
+This series is also cross-posted on [Medium](https://medium.com/@marshateo/javascript-event-loop-series-building-the-event-loop-mental-model-from-experiments-fc1accf31223?postPublishedType=repub) and [Dev.to](https://dev.to/marshateo/javascript-event-loop-series-building-the-event-loop-mental-model-from-experiments-4d8i).
 

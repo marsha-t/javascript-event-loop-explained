@@ -60,7 +60,7 @@ sync start
 sync end
 ```
 
-## Test 1: Can `setTimeout` Interrupt a Lo op?
+## Test 1: Can `setTimeout` Interrupt a Loop?
 
 Let's introduce an asynchronous mechanism with `setTimeout`:
 
