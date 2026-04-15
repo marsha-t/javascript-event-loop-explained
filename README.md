@@ -74,7 +74,7 @@ Read it [here](docs/01-mental-model.md).
 
 If nothing can interrupt JavaScript, when does anything else run? This article reframes tasks as entry points into execution, not chunks of work.
 
-_Coming soon_
+Read it [here](docs/02-macrotasks.md). 
 
 **3) Microtasks: Why Promises Run First**
 
