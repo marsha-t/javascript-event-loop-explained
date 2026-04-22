@@ -39,6 +39,15 @@ console.log("sync");
 
 If you're not 100% sure what happens and why, this series is for you. 
 
+## How to read this series
+Each article builds on the previous one. You *can* jump around, but the payoff is highest if you go in order.
+
+* If you want the **core mental model quickly**: read Articles 1–3  
+* If you care about **rendering and UI behavior**: Articles 5–7 connect the model to what you see on screen  
+* If you just want answers: each article is self-contained, but the full model only emerges across the series
+
+You can also read this series on my [website](https://www.marshateo.com/writing/javascript-event-loop-landing) (recommended for the best reading experience).
+
 ## How to run the experiments
 
 This series is built around small, runnable experiments. You are welcome to run these code snippets to verify the output for yourself. 
@@ -54,13 +63,6 @@ In addition, some experiments require an `index.html` file running directly in t
 
 Finally, some snippets include long loops that will block your browser for a few seconds.  
 Others may require refreshing or closing the tab to recover.
-
-## How to read this series
-Each article builds on the previous one. You *can* jump around, but the payoff is highest if you go in order.
-
-* If you want the **core mental model quickly**: read Articles 1–3  
-* If you care about **rendering and UI behavior**: Articles 5–7 connect the model to what you see on screen  
-* If you just want answers: each article is self-contained, but the full model only emerges across the series
 
 ## The Articles
 
@@ -118,9 +120,9 @@ This is the model everything in this series builds toward:
 6. Only then can rendering happen  
 
 ## Continue the Conversation
+This series was originally written and is maintained on my [website](https://www.marshateo.com/writing/javascript-event-loop-landing). If you prefer a single place with all updates and future articles, you can follow along there.
+
+This series is also cross-posted on [Medium](https://medium.com/@marshateo/javascript-event-loop-series-building-the-event-loop-mental-model-from-experiments-fc1accf31223?postPublishedType=repub) and [Dev.to](https://dev.to/marshateo/javascript-event-loop-series-building-the-event-loop-mental-model-from-experiments-4d8i).
 
 If you want to discuss edge cases, counterexamples, or how this interacts with real applications, I’m always happy to chat.
-
-The full series is hosted on my [website](https://www.marshateo.com/writing/javascript-event-loop-landing). 
-This series is also cross-posted on [Medium](https://medium.com/@marshateo/javascript-event-loop-series-building-the-event-loop-mental-model-from-experiments-fc1accf31223?postPublishedType=repub) and [Dev.to](https://dev.to/marshateo/javascript-event-loop-series-building-the-event-loop-mental-model-from-experiments-4d8i).
 
