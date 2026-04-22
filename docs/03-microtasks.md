@@ -1,5 +1,10 @@
 # Microtasks: Why Promises Run First
 
+_This is the third article in a series on how JavaScript actually runs. You can read the full series [here](../README.md) or on my [website](https://www.marshateo.com/writing/javascript-event-loop-landing)._
+
+---
+
+
 In the [last article](./02-macrotasks.md), we established that:
 
 > JavaScript execution cannot be interrupted.
@@ -214,3 +219,8 @@ Or does it quietly hook into this same microtask mechanism?
 Understanding that requires looking at `async` functions more closely.
 
 That is the subject of the next article.
+
+---
+
+_This article was originally published on my [website](https://www.marshateo.com/writing/microtasks)._
+

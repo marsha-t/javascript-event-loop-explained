@@ -1,5 +1,9 @@
 # The JavaScript Runtime: Fixing the Mental Model
 
+_This is the first article in a series on how JavaScript actually runs. You can read the full series [here](../README.md) or on my [website](https://www.marshateo.com/writing/javascript-event-loop-landing)._
+
+---
+
 Most explanations of JavaScript's event loop start with:
 > JavaScript is single-threaded.
 
@@ -197,3 +201,8 @@ From this article, we have established:
 But if asynchronous callbacks don't interrupt running code, how and when are they allowed to run? What exactly is a 'task'? Where are these queues? Who decides what runs next?
 
 This is the subject of the [next article](./02-macrotasks.md). 
+
+---
+
+_This article was originally published on my [website](https://www.marshateo.com/writing/runtime-mental-model)._
+

@@ -1,5 +1,9 @@
 # Macrotasks: What a Task Actually Is
 
+_This is the second article in a series on how JavaScript actually runs. You can read the full series [here](../README.md) or on my [website](https://www.marshateo.com/writing/javascript-event-loop-landing)._
+
+---
+
 In the [previous article](./01-mental-model.md), we established that
 
 > JavaScript executes synchronously inside a task, and nothing can interrupt that execution.
@@ -262,3 +266,8 @@ Should it wait behind the other tasks in the queue? (But this would delay it unp
 Neither is ideal. Instead, JavaScript has a mechanism that does not interrupt the current macrotask but runs **before** the runtime selects the next macrotask. This mechanism is **microtasks**.
 
 This is where we go [next](./03-microtasks.md).
+
+---
+
+_This article was originally published on my [website](https://www.marshateo.com/writing/macrotasks)._
+

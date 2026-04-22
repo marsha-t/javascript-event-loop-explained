@@ -66,7 +66,7 @@ Others may require refreshing or closing the tab to recover.
 
 ## The Articles
 
-**1) Before the Event Loop: What Actually Runs JavaScript**
+**1) The JavaScript Runtime: Fixing the Mental Model**
 
 Why doesn’t `setTimeout` interrupt your code? This article breaks the illusion: JavaScript runs synchronously, and async APIs don’t interrupt. Instead, they schedule.
 
