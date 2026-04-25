@@ -88,7 +88,7 @@ Read it [here](docs/03-microtasks.md).
 
 Does `await` pause your program or just your function? This article shows how `await` actually works.
 
-_Coming soon_
+Read it [here](docs/04-async-await.md). 
 
 **5) Rendering Is a Browser Decision, Not a JavaScript One**
 
