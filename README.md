@@ -94,7 +94,7 @@ Read it [here](docs/04-async-await.md).
 
 You updated the DOM. So why didn’t the screen change? This article explains why rendering is not triggered by JavaScript, but gated by it.
 
-_Coming soon_
+Read it [here](docs/05-rendering.md). 
 
 **6) `requestAnimationFrame`: The Missing Scheduling Layer**
 
