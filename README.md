@@ -100,7 +100,7 @@ Read it [here](docs/05-rendering.md).
 
 If rendering only happens at certain moments, how do you run code at the right time? This article introduces `requestAnimationFrame` as the missing scheduling layer.
 
-_Coming soon_
+Read it [here](docs/06-requestAnimationFrame.md)
 
 **7) What the Event Loop Means for Real UI Code**
 

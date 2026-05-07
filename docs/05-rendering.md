@@ -142,7 +142,7 @@ If rendering only happens at specific boundaries, a new question emerges: How do
 
 `setTimeout` creates a new macrotask but it does not align with the browser's frame timing. Microtasks delay rendering but they do not schedule it. If we want smooth animation and responsive updates, we need a way to run code just before the browser renders the next frame. 
 
-This is what `requestAnimationFrame` is design for. In the next article, we'll look more closely at how the browser's rendering cycle works and how to schedule work in harmony with it. 
+This is what `requestAnimationFrame` is design for. In the [next article](06-requestAnimationFrame.md), we'll look more closely at how the browser's rendering cycle works and how to schedule work in harmony with it. 
 
 ---
 
