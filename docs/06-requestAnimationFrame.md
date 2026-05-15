@@ -224,7 +224,7 @@ Why do we sometimes need cleanup guards?
 
 One we understand who gets to run and when, we can reason about performance, responsiveness and architectural trade-offs with precision. 
 
-This is where we go next. 
+This is where we go [next](07-event-loop-applications.md). 
 
 
 ---
